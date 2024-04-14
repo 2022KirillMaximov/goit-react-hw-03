@@ -1,0 +1,28 @@
+.contactsList {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.text {
+  display: flex;
+  font-size: 24px;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.phone {
+  font-size: 24px;
+  display: flex;
+  gap: 5px;
+}
+
+.btn {
+  width: 120px;
+  height: 32px;
+}
