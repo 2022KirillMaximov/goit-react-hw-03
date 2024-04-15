@@ -17,7 +17,7 @@ export default function App() {
     if (savedContacts !== null) {
       return JSON.parse(savedContacts);
     }
-    return initialContacts; // Вот здесь мы используем массив как начальное значение
+    return initialContacts;
   });
 
   useEffect(() => {
